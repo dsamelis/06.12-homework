@@ -1,4 +1,73 @@
 /* GLOBAL STYLES */
+* {
+    box-sizing: border-box;
+}
 
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    background-color: red;
+}
+a:active {
+    font-weight: bold;
+}
 
+img {
+    float: left;
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+}
+ul {
+    display: inline-block;
+    list-style: none;
+    margin: 0px 10px 0px 0px;
+    padding: 0px;
+    float: right;
+}
+li {
+    display: inline-block;
+    padding: 1px;
+    margin: 5px;
+    line-height: 7;
+}
+header {
+    background-color: grey;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+
+}
 /* END GLOBAL STYLES */
+/* cia kad isdestyti straipsnius vienoje eileje (width paskirsto i atitinkamas dalis per ploti) */
+.service {
+  float: left;
+  width: 25%;
+  background-color: lightblue;
+}
+
+.article {
+    float: right;
+    width: 50%;
+    background-color: green;
+}
+
+.ser_3 {
+    color: white;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
